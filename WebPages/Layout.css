@@ -1,0 +1,71 @@
+@media print{
+    body {
+        background-color: lightgreen;
+    }
+}
+body{
+	background-image: url("BG.jpg");
+}
+
+.container{
+	width: 960px;
+	min-height: 500px;
+	background-color: transparent;
+	margin: 0 auto;
+}
+.saturs{
+	min-height: 500px;
+	background-color: white;
+}
+.reklama{
+	width:250px;
+	height: 510px;
+	float: right;
+	background: lightgrey;
+	margin: 0 auto;
+	text-align: center;
+}
+.virsraksts{
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	text-align: center;
+}
+ul {
+	list-style-type: none;
+    margin: 0;
+	padding: 0;
+    overflow: hidden;
+    background-color: #111;
+	border-bottom-style: solid;
+	border-bottom-color: red;
+}
+li {
+   float: left;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover {
+	background-color: #111;
+    filter: invert(100%);
+}
+.text{
+	width: 710px;
+	height: 150px;
+}
+.img{
+	float: left;
+	margin-right: 10px;
+}
+.lol:nth-child(odd) {
+    background: lightgreen;
+}
+.lol:nth-child(even) {
+    background: white;
+}
+.div1{
+	padding-left: 30px;
+}
